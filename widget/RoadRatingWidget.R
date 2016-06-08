@@ -1,6 +1,6 @@
 library(RCurl)
 library(ggplot2)
-RoadURL <- getURL("https://raw.githubusercontent.com/samedelstein/RoadData/master/RoadRatings.csv")
+RoadURL <- getURL("https://raw.githubusercontent.com/samedelstein/RoadData/master/data/RoadRatings.csv")
 RoadRating <- read.csv(text = RoadURL)
 
 RoadsByRating <- data.frame(table(RoadRating$Overall))

@@ -6,7 +6,7 @@ output: html_document
 
 This Road Ratings data set was completed in 2015 by the Department of Public Works in the City of Syracuse, NY. These ratings give an overview of the street quality of every city block, on a scale of 1-10. This data set also includes other attributes about the streets in the City.
 
-[Data Download](https://raw.githubusercontent.com/samedelstein/RoadData/master/RoadRatings.csv)
+[Data Download](https://raw.githubusercontent.com/samedelstein/RoadData/master/data/RoadRatings.csv)
 
 ##Data Dictionary
 * Street Name - Name of the street being rated

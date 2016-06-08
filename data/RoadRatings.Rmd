@@ -1,0 +1,28 @@
+---
+title: "Road Ratings"
+output: html_document
+---
+##[Department of Public Works](#)
+
+This Road Ratings data set was completed in 2015 by the Department of Public Works in the City of Syracuse, NY. These ratings give an overview of the street quality of every city block, on a scale of 1-10. This data set also includes other attributes about the streets in the City.
+
+[Data Download](https://raw.githubusercontent.com/samedelstein/RoadData/master/RoadRatings.csv)
+
+##Data Dictionary
+* Street Name - Name of the street being rated
+* From - Cross street connecting to the street being rated
+* To - Cross street connecting to the street being rated
+* Block - Block number of the street being rated
+* Ward - Political ward; its also a geographic indicator
+* Overall - The overall condition rating.  Scale of 1 to 10.  “10 “ is newly paved, “5” and lower are candidates for reconstruction
+* Crack - A rating sub-category, based on amount and severity of cracking.  1 to 5 scale; with “5” indicating no cracking;  “2” indicates extensive cracking.
+* Patch - A rating subcategory, based on frequency and condition of utility cuts and patches. Scale of 1 to 5, with “5” indicating no patches
+* DateR8d - Date Rated; the month & year the pavement was last inspected. Ratings are updated every other year.
+* Length - street segment length in feet
+* Width - street segment width in feet
+* DLO - Date of Last Overlay; when the street was most recently paved.  If blank, there is no record of paving having been performed since 1985.
+* Appl - Application.  The type of work performed, whether it was Mill & Pave, Overlay, Hot In-place Recycling, etc.
+* P O/L - Date of previous overlay; (prior to most recent paving).  This will seldom be known, but when it is known it will give us insight into pavement life expectancies.
+* Fl/O - Flushing/Oiling.  There are 2 City ordinances that tax property owners for street maintenance: the flushing ordinance identifies the “improved “ streets (those having curbs) which will be flushed and swept.  The oiling ordinance identifies Unimproved streets which will receive a slurry seal at 4 year intervals.
+* Class - PA = principal arterial, MA = minor arterial, CO = collector These 3 categories indicate relative traffic volume (PA is highest. CO lowest) and also which pavements are part of the Federal Hwy system and, thus eligible for Federal Aid.  No entry indicates a lower volume local road.  “Parks” identifies a road thru a City park.
+* Pvmt - Pavement type.  An entry of “6” indicates a street with curbs and at least 3 inches of asphalt over a concrete base.  “4” indicates full-depth asphalt (at least 7”), but without a concrete base or curbs.  “3” indicates no curbs, no improved sub-base, and 3 inches or less asphalt.  These are almost exclusively residential streets.  These categories come from NYSDOT Local Hwy Inventory.
